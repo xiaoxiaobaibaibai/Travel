@@ -3,12 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import './assets/styles/reset.css'
+import 'styles/reset.css'
 // 重置不同端的样式
-import './assets/styles/border.css'
+import 'styles/border.css'
 // 移动端1像素边框问题
-
+import fastClick from 'fastclick'
+// 移动click 300ms延迟
+import 'styles/iconfont.css'
 Vue.config.productionTip = false
+fastClick.attach(document.body)
 
 /* eslint-disable no-new */
 new Vue({
