@@ -38,11 +38,11 @@ export default {
         flex: 1
         height: .64rem
         line-height: .64rem
-        margin-top: .12rem
+        margin-top: .1rem
         margin-left: .2rem
         padding-left: .2rem
         background: #fff
-        border-block: .1rem
+        border-radius: .1rem
         color: #ccc
 
      .header-right
